@@ -13,3 +13,32 @@
  *= require_tree .
  *= require_self
  */
+
+ .wrapper{
+    width: 900px;
+    margin: 1em auto;
+    padding: 1em;
+}
+form{
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    /* margin: 0 auto; */
+    font-size: 1.2em;
+    width: 90%;
+    box-sizing: border-box;
+    border: 1px solid rgb(221, 221, 221);
+    text-decoration: none;
+    color: #000;
+}
+span{
+    /* margin-right: 0.5em; */
+}
+form input:not([type='checkbox']){
+    height: 2em;
+    /* width: 6em; */
+}
+li input{
+    /* width: 2em; */
+    margin: 0.5em;
+}
